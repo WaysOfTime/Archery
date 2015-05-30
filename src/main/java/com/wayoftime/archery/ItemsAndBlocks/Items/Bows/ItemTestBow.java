@@ -170,7 +170,7 @@ public class ItemTestBow extends ItemArchery
 
         for (int i = 0; i < this.iconArray.length; ++i)
         {
-            this.iconArray[i] = p_94581_1_.registerIcon(this.getUnlocalizedName() + "_" + bowPullIconNameArray[i]);
+            this.iconArray[i] = p_94581_1_.registerIcon(this.itemIcon + "_" + bowPullIconNameArray[i]);
         }
     }
 
