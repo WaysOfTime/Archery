@@ -1,0 +1,19 @@
+[
+{
+"modid": "Archery",
+"name": "Archery",
+"description": "This is a mod for enhancing your archery experience in minecraft. We add long and shortbows to your game. In addition to armor with special abilities ",
+"version": "1.0",
+"credits": "Created by WayofTime and WorldEarl",
+"logoFile": "",
+"mcversion": "1.8",
+"url": "",
+"updateUrl": "",
+"authors": [ "WayofTime", "WorldEarl"
+],
+"parent":"",
+"screenshots": [],
+"dependencies": [
+]
+}
+]
