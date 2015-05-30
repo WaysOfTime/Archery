@@ -201,9 +201,10 @@ public class EntityEbonyArrow extends Entity implements IProjectile {
             if (block == this.field_145790_g && j == this.inData) {
                 ++this.ticksInGround;
 
-                if (this.ticksInGround == 1200) {
-                    this.worldObj.createExplosion(this, this.posX, this.posY, this.posZ, 1.0f, true);
+                if (this.ticksInGround == 1) {
+
                     this.setDead();
+                    this.worldObj.createExplosion(this, this.posX, this.posY, this.posZ, 1.0f, true);
                 }
             } else {
                 this.inGround = false;
