@@ -1,6 +1,7 @@
 package com.wayoftime.archery.ItemsAndBlocks.Items.Minerals;
 
 import com.wayoftime.archery.ItemsAndBlocks.Items.ItemArchery;
+import com.wayoftime.archery.creativetab.CreativeTab;
 
 public class ItemEbonyIngot extends ItemArchery
 {
@@ -9,6 +10,7 @@ public class ItemEbonyIngot extends ItemArchery
         super();
         this.setUnlocalizedName("ebony_ingot");
         this.setMaxStackSize(64);
+        this.setCreativeTab(CreativeTab.ARCHERY_TAB);
     }
 
 }
