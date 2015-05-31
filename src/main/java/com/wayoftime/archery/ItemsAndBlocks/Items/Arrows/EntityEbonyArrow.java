@@ -16,7 +16,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.play.server.S2BPacketChangeGameState;
 import net.minecraft.util.*;
+import net.minecraft.world.Teleporter;
 import net.minecraft.world.World;
+import net.minecraftforge.event.entity.living.EnderTeleportEvent;
 
 import java.util.List;
 
@@ -204,7 +206,7 @@ public class EntityEbonyArrow extends Entity implements IProjectile {
                 if (this.ticksInGround == 1) {
 
                     this.setDead();
-                    this.worldObj.createExplosion(this, this.posX, this.posY, this.posZ, 1.0f, true);
+                    this.worldObj.createExplosion(this, this.posX, this.posY, this.posZ, 20.0f, true);
                 }
             } else {
                 this.inGround = false;
