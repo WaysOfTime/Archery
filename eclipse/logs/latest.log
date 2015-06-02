@@ -1,9 +1,18 @@
+<<<<<<< Updated upstream
 [11:54:29] [main/INFO]: Setting user: Player841
 [11:54:30] [Client thread/INFO]: LWJGL Version: 2.9.1
 [11:54:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Archery
 [11:54:36] [Sound Library Loader/INFO]: Sound engine started
 [11:54:38] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
 [11:54:38] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_standby.png
+=======
+[20:04:53] [main/INFO]: Setting user: Player713
+[20:04:54] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:04:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Archery
+[20:04:59] [Sound Library Loader/INFO]: Sound engine started
+[20:05:01] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:05:01] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_standby.png
+>>>>>>> Stashed changes
 java.io.FileNotFoundException: archery:textures/items/ebony_bow_standby.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -28,7 +37,11 @@ java.io.FileNotFoundException: archery:textures/items/ebony_bow_standby.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+<<<<<<< Updated upstream
 [11:54:38] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_pulling_2.png
+=======
+[20:05:01] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_pulling_2.png
+>>>>>>> Stashed changes
 java.io.FileNotFoundException: archery:textures/items/ebony_bow_pulling_2.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -53,7 +66,11 @@ java.io.FileNotFoundException: archery:textures/items/ebony_bow_pulling_2.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+<<<<<<< Updated upstream
 [11:54:38] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_pulling_1.png
+=======
+[20:05:01] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_pulling_1.png
+>>>>>>> Stashed changes
 java.io.FileNotFoundException: archery:textures/items/ebony_bow_pulling_1.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -78,7 +95,11 @@ java.io.FileNotFoundException: archery:textures/items/ebony_bow_pulling_1.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+<<<<<<< Updated upstream
 [11:54:38] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_pulling_0.png
+=======
+[20:05:01] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_pulling_0.png
+>>>>>>> Stashed changes
 java.io.FileNotFoundException: archery:textures/items/ebony_bow_pulling_0.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -103,8 +124,13 @@ java.io.FileNotFoundException: archery:textures/items/ebony_bow_pulling_0.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+<<<<<<< Updated upstream
 [11:54:38] [Client thread/ERROR]: Using missing texture, unable to load item.archery:textures/items/test_bow_pulling_0.png
 java.io.FileNotFoundException: item.archery:textures/items/test_bow_pulling_0.png
+=======
+[20:05:01] [Client thread/ERROR]: Using missing texture, unable to load textureatlassprite{name='archery:textures/items/test_bow', frameCount=0, rotated=false, x=0, y=0, height=0, width=0, u0=0.0, u1=0.0, v0=0.0, v1=0.0}_pulling_0.png
+java.io.FileNotFoundException: textureatlassprite{name='archery:textures/items/test_bow', frameCount=0, rotated=false, x=0, y=0, height=0, width=0, u0=0.0, u1=0.0, v0=0.0, v1=0.0}_pulling_0.png
+>>>>>>> Stashed changes
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
@@ -127,8 +153,13 @@ java.io.FileNotFoundException: item.archery:textures/items/test_bow_pulling_0.pn
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+<<<<<<< Updated upstream
 [11:54:38] [Client thread/ERROR]: Using missing texture, unable to load item.archery:textures/items/test_bow_pulling_1.png
 java.io.FileNotFoundException: item.archery:textures/items/test_bow_pulling_1.png
+=======
+[20:05:01] [Client thread/ERROR]: Using missing texture, unable to load textureatlassprite{name='archery:textures/items/test_bow', frameCount=0, rotated=false, x=0, y=0, height=0, width=0, u0=0.0, u1=0.0, v0=0.0, v1=0.0}_pulling_2.png
+java.io.FileNotFoundException: textureatlassprite{name='archery:textures/items/test_bow', frameCount=0, rotated=false, x=0, y=0, height=0, width=0, u0=0.0, u1=0.0, v0=0.0, v1=0.0}_pulling_2.png
+>>>>>>> Stashed changes
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
@@ -151,8 +182,13 @@ java.io.FileNotFoundException: item.archery:textures/items/test_bow_pulling_1.pn
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+<<<<<<< Updated upstream
 [11:54:38] [Client thread/ERROR]: Using missing texture, unable to load item.archery:textures/items/test_bow_pulling_2.png
 java.io.FileNotFoundException: item.archery:textures/items/test_bow_pulling_2.png
+=======
+[20:05:01] [Client thread/ERROR]: Using missing texture, unable to load textureatlassprite{name='archery:textures/items/test_bow', frameCount=0, rotated=false, x=0, y=0, height=0, width=0, u0=0.0, u1=0.0, v0=0.0, v1=0.0}_pulling_1.png
+java.io.FileNotFoundException: textureatlassprite{name='archery:textures/items/test_bow', frameCount=0, rotated=false, x=0, y=0, height=0, width=0, u0=0.0, u1=0.0, v0=0.0, v1=0.0}_pulling_1.png
+>>>>>>> Stashed changes
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
@@ -175,10 +211,17 @@ java.io.FileNotFoundException: item.archery:textures/items/test_bow_pulling_2.pn
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+<<<<<<< Updated upstream
 [11:54:38] [Client thread/INFO]: Created: 512x256 textures/items-atlas
 [11:54:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Archery
 [11:54:38] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
 [11:54:38] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_standby.png
+=======
+[20:05:01] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[20:05:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Archery
+[20:05:01] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:05:01] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_standby.png
+>>>>>>> Stashed changes
 java.io.FileNotFoundException: archery:textures/items/ebony_bow_standby.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -206,7 +249,11 @@ java.io.FileNotFoundException: archery:textures/items/ebony_bow_standby.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+<<<<<<< Updated upstream
 [11:54:38] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_pulling_2.png
+=======
+[20:05:01] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_pulling_2.png
+>>>>>>> Stashed changes
 java.io.FileNotFoundException: archery:textures/items/ebony_bow_pulling_2.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -234,7 +281,11 @@ java.io.FileNotFoundException: archery:textures/items/ebony_bow_pulling_2.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+<<<<<<< Updated upstream
 [11:54:38] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_pulling_1.png
+=======
+[20:05:01] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_pulling_1.png
+>>>>>>> Stashed changes
 java.io.FileNotFoundException: archery:textures/items/ebony_bow_pulling_1.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -262,7 +313,11 @@ java.io.FileNotFoundException: archery:textures/items/ebony_bow_pulling_1.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+<<<<<<< Updated upstream
 [11:54:38] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_pulling_0.png
+=======
+[20:05:01] [Client thread/ERROR]: Using missing texture, unable to load archery:textures/items/ebony_bow_pulling_0.png
+>>>>>>> Stashed changes
 java.io.FileNotFoundException: archery:textures/items/ebony_bow_pulling_0.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -290,8 +345,13 @@ java.io.FileNotFoundException: archery:textures/items/ebony_bow_pulling_0.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+<<<<<<< Updated upstream
 [11:54:38] [Client thread/ERROR]: Using missing texture, unable to load item.archery:textures/items/test_bow_pulling_0.png
 java.io.FileNotFoundException: item.archery:textures/items/test_bow_pulling_0.png
+=======
+[20:05:01] [Client thread/ERROR]: Using missing texture, unable to load textureatlassprite{name='archery:textures/items/test_bow', frameCount=0, rotated=false, x=0, y=0, height=0, width=0, u0=0.0, u1=0.0, v0=0.0, v1=0.0}_pulling_0.png
+java.io.FileNotFoundException: textureatlassprite{name='archery:textures/items/test_bow', frameCount=0, rotated=false, x=0, y=0, height=0, width=0, u0=0.0, u1=0.0, v0=0.0, v1=0.0}_pulling_0.png
+>>>>>>> Stashed changes
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
@@ -317,8 +377,13 @@ java.io.FileNotFoundException: item.archery:textures/items/test_bow_pulling_0.pn
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+<<<<<<< Updated upstream
 [11:54:38] [Client thread/ERROR]: Using missing texture, unable to load item.archery:textures/items/test_bow_pulling_1.png
 java.io.FileNotFoundException: item.archery:textures/items/test_bow_pulling_1.png
+=======
+[20:05:01] [Client thread/ERROR]: Using missing texture, unable to load textureatlassprite{name='archery:textures/items/test_bow', frameCount=0, rotated=false, x=0, y=0, height=0, width=0, u0=0.0, u1=0.0, v0=0.0, v1=0.0}_pulling_2.png
+java.io.FileNotFoundException: textureatlassprite{name='archery:textures/items/test_bow', frameCount=0, rotated=false, x=0, y=0, height=0, width=0, u0=0.0, u1=0.0, v0=0.0, v1=0.0}_pulling_2.png
+>>>>>>> Stashed changes
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
@@ -344,8 +409,13 @@ java.io.FileNotFoundException: item.archery:textures/items/test_bow_pulling_1.pn
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+<<<<<<< Updated upstream
 [11:54:38] [Client thread/ERROR]: Using missing texture, unable to load item.archery:textures/items/test_bow_pulling_2.png
 java.io.FileNotFoundException: item.archery:textures/items/test_bow_pulling_2.png
+=======
+[20:05:01] [Client thread/ERROR]: Using missing texture, unable to load textureatlassprite{name='archery:textures/items/test_bow', frameCount=0, rotated=false, x=0, y=0, height=0, width=0, u0=0.0, u1=0.0, v0=0.0, v1=0.0}_pulling_1.png
+java.io.FileNotFoundException: textureatlassprite{name='archery:textures/items/test_bow', frameCount=0, rotated=false, x=0, y=0, height=0, width=0, u0=0.0, u1=0.0, v0=0.0, v1=0.0}_pulling_1.png
+>>>>>>> Stashed changes
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
@@ -371,6 +441,7 @@ java.io.FileNotFoundException: item.archery:textures/items/test_bow_pulling_2.pn
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+<<<<<<< Updated upstream
 [11:54:38] [Client thread/INFO]: Created: 512x256 textures/items-atlas
 [11:54:39] [Sound Library Loader/INFO]: Sound engine started
 [11:54:46] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
@@ -396,3 +467,24 @@ java.io.FileNotFoundException: item.archery:textures/items/test_bow_pulling_2.pn
 [11:55:30] [Server thread/INFO]: Saving chunks for level 'Dev World'/Nether
 [11:55:30] [Server thread/INFO]: Saving chunks for level 'Dev World'/The End
 [11:55:31] [Client thread/INFO]: Stopping!
+=======
+[20:05:01] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[20:05:02] [Sound Library Loader/INFO]: Sound engine started
+[20:05:08] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[20:05:08] [Server thread/INFO]: Generating keypair
+[20:05:09] [Server thread/INFO]: Preparing start region for level 0
+[20:05:09] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:05:11] [Server thread/INFO]: Player713[local:E:04b0d374] logged in with entity id 265 at (-797.7207205576735, 21.144415980495843, 862.7070707362532)
+[20:05:11] [Server thread/INFO]: Player713 joined the game
+[20:06:28] [Server thread/INFO]: Saving and pausing game...
+[20:06:28] [Server thread/INFO]: Saving chunks for level 'Dev World'/Overworld
+[20:06:28] [Server thread/INFO]: Saving chunks for level 'Dev World'/Nether
+[20:06:28] [Server thread/INFO]: Saving chunks for level 'Dev World'/The End
+[20:06:29] [Server thread/INFO]: Stopping server
+[20:06:29] [Server thread/INFO]: Saving players
+[20:06:29] [Server thread/INFO]: Saving worlds
+[20:06:29] [Server thread/INFO]: Saving chunks for level 'Dev World'/Overworld
+[20:06:29] [Server thread/INFO]: Saving chunks for level 'Dev World'/Nether
+[20:06:29] [Server thread/INFO]: Saving chunks for level 'Dev World'/The End
+[20:06:30] [Client thread/INFO]: Stopping!
+>>>>>>> Stashed changes

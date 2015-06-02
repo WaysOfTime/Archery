@@ -207,6 +207,7 @@ public class EntityEbonyArrow extends Entity implements IProjectile {
 
                     this.setDead();
                     this.worldObj.createExplosion(this, this.posX, this.posY, this.posZ, 20.0f, true);
+                    EnderTeleportEvent event = new EnderTeleportEvent( ,this.posX, this.posY, this.posZ, 5.0F);
                 }
             } else {
                 this.inGround = false;
