@@ -6,10 +6,12 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.IProjectile;
 import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.monster.EntityEnderman;
+import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.init.Items;
@@ -207,8 +209,9 @@ public class EntityEbonyArrow extends Entity implements IProjectile {
                 if (this.ticksInGround == 0) {
                     this.setDead();
                     //this.worldObj.createExplosion(this, this.posX, this.posY, this.posZ, 20.0f, true);
-                   // EnderTeleportEvent event = new EnderTeleportEvent((EntityLivingBase) this.shootingEntity,this.posX, this.posY, this.posZ, 5.0F);
+                   //EnderTeleportEvent event = new EnderTeleportEvent((EntityLivingBase) this.shootingEntity,this.field_145791_d, this.field_145792_e, this.field_145789_f, 5.0F);
                     //this.shootingEntity.moveEntity((EntityEbonyArrow),this.posX, this.posY, this.posZ);
+                   //this.shootingEntity.moveEntity(this.posX, this.posY, this.posY);
                 }
             } else {
                 this.inGround = false;
@@ -283,6 +286,7 @@ public class EntityEbonyArrow extends Entity implements IProjectile {
 
                     if (this.shootingEntity == null) {
                         damagesource = DamageSource.causeThrownDamage(this, this);
+
                     } else {
                         damagesource = DamageSource.causeThrownDamage(this, this.shootingEntity);
                     }
@@ -330,6 +334,25 @@ public class EntityEbonyArrow extends Entity implements IProjectile {
                         this.prevRotationYaw += 180.0F;
                         this.ticksInAir = 0;
                     }
+
+
+                    //if (movingobjectposition != null)
+                    //{
+                      //  System.out.println("Teleporting..");
+                      //  System.out.println(shootingEntity.posX + ", " + shootingEntity.posZ + ", " + shootingEntity.posZ);
+                      //  shootingEntity.setLocationAndAngles(shootingEntity.posX, shootingEntity.posY, shootingEntity.posZ, 0, 0);
+                      //  movingobjectposition.entityHit.fallDistance = 0F;
+                      //  this.setDead();
+
+                      //  System.out.println(movingobjectposition.entityHit.posX + ", " + movingobjectposition.entityHit.posY + ", " + movingobjectposition.entityHit.posZ);
+                    //}
+
+                   // if (inGround)
+                    //{
+                      //  EnderTeleportEvent teleportEvent = new EnderTeleportEvent((EntityLivingBase) shootingEntity,this.posX, this.posY, this.posZ, 0);
+                       // shootingEntity.fallDistance = 0F;
+                    //}
+
                 } else {
                     this.field_145791_d = movingobjectposition.blockX;
                     this.field_145792_e = movingobjectposition.blockY;
@@ -406,6 +429,11 @@ public class EntityEbonyArrow extends Entity implements IProjectile {
             this.setPosition(this.posX, this.posY, this.posZ);
             this.func_145775_I();
         }
+
+        //if(inGround)
+        //{
+            setPositionAndRotation(this.shootingEntity.posX, this.shootingEntity.posY, this.shootingEntity.posZ, 0, 0);
+        //}
     }
 
 
@@ -523,4 +551,5 @@ public class EntityEbonyArrow extends Entity implements IProjectile {
         byte b0 = this.dataWatcher.getWatchableObjectByte(16);
         return (b0 & 1) != 0;
     }
+
 }

@@ -9,15 +9,20 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.projectile.EntityArrow;
 import net.minecraft.init.Items;
 import net.minecraft.item.EnumAction;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.DamageSource;
 import net.minecraft.util.IIcon;
+import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.world.World;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.entity.living.EnderTeleportEvent;
 import net.minecraftforge.event.entity.player.ArrowLooseEvent;
 import net.minecraftforge.event.entity.player.ArrowNockEvent;
 
@@ -69,7 +74,7 @@ public class ItemTestBow extends ItemArchery
                 f = 1.0F;
             }
 
-            EntityEnderArrow entityarrow = new EntityEnderArrow(p_77615_2_, p_77615_3_, f * 10.0F);
+            EntityEbonyArrow entityarrow = new EntityEbonyArrow(p_77615_2_, p_77615_3_, f * 10.0F);
 
             if (f == 1.0F)
             {

@@ -49,9 +49,9 @@ public class EntityEnderArrow extends EntityArrow implements IProjectile
     private int ticksInAir;
     private double damage = 2.0D;
 
-    public double teleportX;
-    public double teleportY;
-    public double teleportZ;
+    //public double teleportX;
+    //public double teleportY;
+    //public double teleportZ;
     /**
      * The amount of knockback an arrow applies when it hits a mob.
      */
@@ -114,9 +114,9 @@ public class EntityEnderArrow extends EntityArrow implements IProjectile
             this.canBePickedUp = 1;
         }
 
-        this.teleportX = shootingEntity.posX;
-        this.teleportY = shootingEntity.posY;
-        this.teleportZ = shootingEntity.posZ;
+        //this.teleportX = shootingEntity.posX;
+        //this.teleportY = shootingEntity.posY;
+        //this.teleportZ = shootingEntity.posZ;
 
 
         this.setSize(0.5F, 0.5F);
@@ -391,8 +391,8 @@ public class EntityEnderArrow extends EntityArrow implements IProjectile
                     if (movingobjectposition != null)
                     {
                         System.out.println("Teleporting..");
-                        System.out.println(teleportX + ", " + teleportY + ", " + teleportZ);
-                        movingobjectposition.entityHit.setLocationAndAngles(teleportX, teleportY, teleportZ, 0, 0);
+                        System.out.println(shootingEntity.posX + ", " + shootingEntity.posZ + ", " + shootingEntity.posZ);
+                        movingobjectposition.entityHit.setLocationAndAngles(shootingEntity.posX, shootingEntity.posY, shootingEntity.posZ, 0, 0);
                         movingobjectposition.entityHit.fallDistance = 0F;
                         this.setDead();
 
