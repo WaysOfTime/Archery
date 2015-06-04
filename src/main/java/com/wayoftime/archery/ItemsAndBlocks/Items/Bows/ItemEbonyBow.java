@@ -1,7 +1,5 @@
 package com.wayoftime.archery.ItemsAndBlocks.Items.Bows;
 
-import com.wayoftime.archery.ItemsAndBlocks.Items.Arrows.EntityEbonyArrow;
-import com.wayoftime.archery.ItemsAndBlocks.Items.Arrows.EntityEnderArrow;
 import com.wayoftime.archery.ItemsAndBlocks.Items.ItemArchery;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,7 +11,6 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntityArrow;
 import net.minecraft.init.Items;
 import net.minecraft.item.EnumAction;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.World;

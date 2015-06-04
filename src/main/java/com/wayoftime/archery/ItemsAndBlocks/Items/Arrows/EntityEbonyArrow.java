@@ -8,6 +8,7 @@ import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.IProjectile;
+import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.monster.EntityEnderman;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -203,11 +204,11 @@ public class EntityEbonyArrow extends Entity implements IProjectile {
             if (block == this.field_145790_g && j == this.inData) {
                 ++this.ticksInGround;
 
-                if (this.ticksInGround == 1) {
-
+                if (this.ticksInGround == 0) {
                     this.setDead();
-                    this.worldObj.createExplosion(this, this.posX, this.posY, this.posZ, 20.0f, true);
-                    EnderTeleportEvent event = new EnderTeleportEvent( ,this.posX, this.posY, this.posZ, 5.0F);
+                    //this.worldObj.createExplosion(this, this.posX, this.posY, this.posZ, 20.0f, true);
+                   // EnderTeleportEvent event = new EnderTeleportEvent((EntityLivingBase) this.shootingEntity,this.posX, this.posY, this.posZ, 5.0F);
+                    //this.shootingEntity.moveEntity((EntityEbonyArrow),this.posX, this.posY, this.posZ);
                 }
             } else {
                 this.inGround = false;
@@ -406,6 +407,7 @@ public class EntityEbonyArrow extends Entity implements IProjectile {
             this.func_145775_I();
         }
     }
+
 
     /**
      * (abstract) Protected helper method to write subclass entity data to NBT.

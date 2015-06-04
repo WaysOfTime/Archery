@@ -1,6 +1,7 @@
 package com.wayoftime.archery.ItemsAndBlocks.Items.Bows;
 
 import com.wayoftime.archery.ItemsAndBlocks.Items.Arrows.EntityEbonyArrow;
+import com.wayoftime.archery.ItemsAndBlocks.Items.Arrows.EntityEnderArrow;
 import com.wayoftime.archery.ItemsAndBlocks.Items.ItemArchery;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -68,7 +69,7 @@ public class ItemTestBow extends ItemArchery
                 f = 1.0F;
             }
 
-            EntityEbonyArrow entityarrow = new EntityEbonyArrow(p_77615_2_, p_77615_3_, f * 100.0F);
+            EntityEnderArrow entityarrow = new EntityEnderArrow(p_77615_2_, p_77615_3_, f * 10.0F);
 
             if (f == 1.0F)
             {
